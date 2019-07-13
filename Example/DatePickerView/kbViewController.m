@@ -7,7 +7,7 @@
 //
 
 #import "kbViewController.h"
-
+#import <DatePickerView.h>
 @interface kbViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DatePickerView *dd = [[DatePickerView alloc] initWithDatePickerStyle:(DatePickerStyle_YearMonth)];
+    [dd showOnView:self.view];
 }
 
 - (void)didReceiveMemoryWarning

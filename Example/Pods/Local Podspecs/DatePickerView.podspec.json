@@ -1,0 +1,22 @@
+{
+  "name": "DatePickerView",
+  "version": "0.1.0",
+  "summary": "A short description of DatePickerView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wyj317005934@163.com/DatePickerView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wyj317005934@163.com": "wyj317005934@163.com"
+  },
+  "source": {
+    "git": "https://github.com/wyj317005934@163.com/DatePickerView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DatePickerView/Classes/**/*"
+}

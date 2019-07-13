@@ -1,0 +1,16 @@
+PODS:
+  - DatePickerView (0.1.0)
+
+DEPENDENCIES:
+  - DatePickerView (from `../`)
+
+EXTERNAL SOURCES:
+  DatePickerView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DatePickerView: 17e7c6f239e02cc00b34556dc659a09a45f99560
+
+PODFILE CHECKSUM: ad37f6f04a542f7d1af7374fe1744848d93ce61d
+
+COCOAPODS: 1.6.1

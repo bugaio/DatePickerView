@@ -1,0 +1,6 @@
+framework module Pods_DatePickerView_Example {
+  umbrella header "Pods-DatePickerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
