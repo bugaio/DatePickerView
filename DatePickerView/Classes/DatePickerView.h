@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "DatePickerHeader.h"
+#import "DatePickerConfiguration.h"
 
 
 
 NS_ASSUME_NONNULL_BEGIN
-@class DatePickerConfiguration;
 @class DatePickerView;
 
 @protocol DatePickerViewDelegate <NSObject>

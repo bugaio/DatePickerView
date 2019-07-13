@@ -1,5 +1,5 @@
 PODS:
-  - DatePickerView (0.1.0)
+  - DatePickerView (1.0.0)
 
 DEPENDENCIES:
   - DatePickerView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DatePickerView: 17e7c6f239e02cc00b34556dc659a09a45f99560
+  DatePickerView: 6c65aa446822f5ef68b3b5d0f7df7e5529911c69
 
 PODFILE CHECKSUM: ad37f6f04a542f7d1af7374fe1744848d93ce61d
 

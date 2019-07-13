@@ -18,7 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    DatePickerView *dd = [[DatePickerView alloc] initWithDatePickerStyle:(DatePickerStyle_YearMonth)];
+    DatePickerConfiguration *con = [[DatePickerConfiguration alloc] init];
+    con.hanleButtonTextColor = UIColor.whiteColor;
+    DatePickerView *dd = [[DatePickerView alloc] initWithDatePickerStyle:(DatePickerStyle_YearMonthDayHourMinute) Configuration:con ScrollToDate:[NSDate date]];
     [dd showOnView:self.view];
 }
 

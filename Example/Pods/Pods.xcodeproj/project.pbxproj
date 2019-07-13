@@ -9,24 +9,25 @@
 /* Begin PBXBuildFile section */
 		07BCCE5D78647AC377C50E4C6E1FEB04 /* Pods-DatePickerView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F1B5B0998F4AE5E6B7DC3840500FA1 /* Pods-DatePickerView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1270B5ADDF168DEFE6E6BB27F94EEB94 /* Pods-DatePickerView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DA385456549EECED641B2852409B28 /* Pods-DatePickerView_Tests-dummy.m */; };
-		14540BDF546467AFD5E5C9403C7655AF /* DatePickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697DD2BD7952CC1F478A0F4FB5F877B3 /* DatePickerView-dummy.m */; };
-		2F8BAFFD5D60CFB9A79E84E7D3F118B7 /* PickerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27A245DB3C65536DE2D9C2B1E80F3E /* PickerExtension.m */; };
-		360D00B87DAFB07A14AC21539CD6576F /* DataPickerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8D18D24584D41CF8AC0961F4C032C /* DataPickerContentView.m */; };
-		788D3E4A7F375AA2236E2504D330B0C2 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBF3BE3018B27F82FB5C97E1F9C552 /* DatePickerView.m */; };
-		7D353510C28D95D0040FA20168961817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		93592DC52B4C2D1A72F13E42084EDC62 /* PickerExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 692F837C63303751859FE2F67E6B4053 /* PickerExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99C03DA197E864E51061CAA3A6C22022 /* DatePickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC77E4C5C445571F138B53836A8A4A3 /* DatePickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A20F30B7B9944FF1824C4540537B7A9E /* DatePickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374B9E8731DA43A0B91BFAD291CBE9B8 /* DatePickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A889D65C73ECEFE0C8D879982195B210 /* DatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F4B453F958D5E9E2F06585F07E88B3 /* DatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14C45BDFBD3F1AE3031003DE6BB4A681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		23C68ED2E475614287DC53315E016059 /* DatePickerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFE478AFA3F05D357DE84916FC96A2C /* DatePickerConfiguration.m */; };
+		4D01900B93089A4B47673DAC83D8B23E /* DatePickerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AFDD144FF64F3A426BC84E960D9BC /* DatePickerDataManager.m */; };
+		53E04DA705840CE5BB16D3EFC3E2FA47 /* DataPickerContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC8D18D24584D41CF8AC0961F4C032C /* DataPickerContentView.m */; };
+		7D353510C28D95D0040FA20168961817 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		868027B69D650DBC3C6157490EEA4580 /* DatePickerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC77E4C5C445571F138B53836A8A4A3 /* DatePickerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90070352B3DF43F230C5FA32223F6EC9 /* PickerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27A245DB3C65536DE2D9C2B1E80F3E /* PickerExtension.m */; };
+		976E048BE0E3AD9D1A857C1A7949E689 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCBF3BE3018B27F82FB5C97E1F9C552 /* DatePickerView.m */; };
+		9BE7B6089D0626939AD0115955CAD09F /* DataPickerContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FF6CE451C71288FE45A0F5549E46FE /* DataPickerContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A49DCFBEF0E6A775FEEFDCC53F6EEA80 /* DatePickerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 374B9E8731DA43A0B91BFAD291CBE9B8 /* DatePickerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A52E2C2771CF6FD9E955E5516C00FB50 /* PickerExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 692F837C63303751859FE2F67E6B4053 /* PickerExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A816B424AA3519016B046A11379D94C7 /* DatePickerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A40079E6AC91F5CF21CA14329E2735 /* DatePickerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC3DF5C6516B95D3E8713BDD8848C27C /* Pods-DatePickerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAF71996E8E1432B166970CE97F6497 /* Pods-DatePickerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6404F14250C828A611D22A69194B07A /* DatePickerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFE478AFA3F05D357DE84916FC96A2C /* DatePickerConfiguration.m */; };
-		C9F28F15509537B328EAE3C4A2CAFB59 /* DatePickerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A40079E6AC91F5CF21CA14329E2735 /* DatePickerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA93E9576F5D2F5145DF15C174F8AB22 /* Pods-DatePickerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 056E950B6A59D6A1E7144C7BDB00BB2C /* Pods-DatePickerView_Example-dummy.m */; };
-		D69A93A50C12E234A1ED5989C348AA0C /* DatePickerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 816AFDD144FF64F3A426BC84E960D9BC /* DatePickerDataManager.m */; };
-		D6D599D6005777884705DC5DD796F42F /* DataPickerContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FF6CE451C71288FE45A0F5549E46FE /* DataPickerContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7BAB4C5D4DDB344F9D6E53A22CF4672 /* DatePickerDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD7A18FC0E8BA2E8DF5C683F4283C7F /* DatePickerDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ECC400689AEEA36821A21F333CF70EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F06C1B0833F84BD1176826F6956E53C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D87314F8DA923B64F43E61FA8D453426 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		DAFFD43184ABCD96D8F500A50090FCF5 /* DatePickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 697DD2BD7952CC1F478A0F4FB5F877B3 /* DatePickerView-dummy.m */; };
+		E5F55962A95DA92C8A305F46A5181844 /* DatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F4B453F958D5E9E2F06585F07E88B3 /* DatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1B788EDAD9292E45C973C9C1E4CC85 /* DatePickerDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD7A18FC0E8BA2E8DF5C683F4283C7F /* DatePickerDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC400689AEEA36821A21F333CF70EF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +35,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 10B6ECBA7DC2C457D40BF287823BB26B;
+			remoteGlobalIDString = 21D61EF3420DB4EE77B195984CD765FF;
 			remoteInfo = DatePickerView;
 		};
 		BD53C4A1BCE415CACC12B668389FFEE6 /* PBXContainerItemProxy */ = {
@@ -57,11 +58,12 @@
 		29E1EED8D4A151A25ACF6CB8B5BCC790 /* Pods-DatePickerView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DatePickerView_Tests-Info.plist"; sourceTree = "<group>"; };
 		2DC77E4C5C445571F138B53836A8A4A3 /* DatePickerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatePickerHeader.h; path = DatePickerView/Classes/DatePickerHeader.h; sourceTree = "<group>"; };
 		2F15842D96D6C376E12BED422E8EFC02 /* DatePickerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerView.framework; path = DatePickerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		318F7D9C41F11BF01B0850B87A34EEE5 /* DatePickerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatePickerView.modulemap; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		374B9E8731DA43A0B91BFAD291CBE9B8 /* DatePickerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerView-umbrella.h"; sourceTree = "<group>"; };
 		39B76DCD1C2E3825C2E182F2FDAA1689 /* Pods-DatePickerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DatePickerView_Example-Info.plist"; sourceTree = "<group>"; };
 		3F2A298086D344C55AB6DD37131D2C07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		451979F418B40E76B73C84D63FAB2972 /* Pods-DatePickerView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DatePickerView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		63F1B5B0998F4AE5E6B7DC3840500FA1 /* Pods-DatePickerView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DatePickerView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		65DECD57344FBEDC256D3A1A7D2C110F /* Pods_DatePickerView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DatePickerView_Tests.framework; path = "Pods-DatePickerView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,14 +94,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		003E3D09FC43984B27EA7050220A973F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F06C1B0833F84BD1176826F6956E53C1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0A79955D6EC7FAC20AAD06F23954550E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +107,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D353510C28D95D0040FA20168961817 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F142994F171ED0E477379E3B5637E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87314F8DA923B64F43E61FA8D453426 /* Foundation.framework in Frameworks */,
+				14C45BDFBD3F1AE3031003DE6BB4A681 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,14 @@
 			);
 			name = "Pods-DatePickerView_Tests";
 			path = "Target Support Files/Pods-DatePickerView_Tests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		43D77335B6EFBD9020CC6030036652A5 /* Targets Support Files */ = {
@@ -158,31 +169,15 @@
 			path = "Example/Pods/Target Support Files/DatePickerView";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				F906DF5C7468ED99BF2E3D76B9D619FA /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				E72BBFB93ACC8040E3B79336BBCC4C32 /* Products */,
 				43D77335B6EFBD9020CC6030036652A5 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D6F22878867BA35ED84E2919710C05C7 /* Pod */ = {
@@ -210,6 +205,15 @@
 			);
 			name = "Pods-DatePickerView_Example";
 			path = "Target Support Files/Pods-DatePickerView_Example";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		E72BBFB93ACC8040E3B79336BBCC4C32 /* Products */ = {
@@ -254,25 +258,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		690736F546B5AB05E37699D3F2B63439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE7B6089D0626939AD0115955CAD09F /* DataPickerContentView.h in Headers */,
+				A816B424AA3519016B046A11379D94C7 /* DatePickerConfiguration.h in Headers */,
+				EC1B788EDAD9292E45C973C9C1E4CC85 /* DatePickerDataManager.h in Headers */,
+				868027B69D650DBC3C6157490EEA4580 /* DatePickerHeader.h in Headers */,
+				A49DCFBEF0E6A775FEEFDCC53F6EEA80 /* DatePickerView-umbrella.h in Headers */,
+				E5F55962A95DA92C8A305F46A5181844 /* DatePickerView.h in Headers */,
+				A52E2C2771CF6FD9E955E5516C00FB50 /* PickerExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		972C455FF2BED51348B9B4E4BAA0AB2F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC3DF5C6516B95D3E8713BDD8848C27C /* Pods-DatePickerView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B89322E2FDA30F87488D9B37D8DFB235 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6D599D6005777884705DC5DD796F42F /* DataPickerContentView.h in Headers */,
-				C9F28F15509537B328EAE3C4A2CAFB59 /* DatePickerConfiguration.h in Headers */,
-				E7BAB4C5D4DDB344F9D6E53A22CF4672 /* DatePickerDataManager.h in Headers */,
-				99C03DA197E864E51061CAA3A6C22022 /* DatePickerHeader.h in Headers */,
-				A20F30B7B9944FF1824C4540537B7A9E /* DatePickerView-umbrella.h in Headers */,
-				A889D65C73ECEFE0C8D879982195B210 /* DatePickerView.h in Headers */,
-				93592DC52B4C2D1A72F13E42084EDC62 /* PickerExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +291,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		10B6ECBA7DC2C457D40BF287823BB26B /* DatePickerView */ = {
+		21D61EF3420DB4EE77B195984CD765FF /* DatePickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CA63D87323E5269CCEF5CD40C0B8316 /* Build configuration list for PBXNativeTarget "DatePickerView" */;
+			buildConfigurationList = 31076877D795A2AD6595B0CCF5BD1FDD /* Build configuration list for PBXNativeTarget "DatePickerView" */;
 			buildPhases = (
-				B89322E2FDA30F87488D9B37D8DFB235 /* Headers */,
-				34DA8C50FBAC812E9460AE7E8898D312 /* Sources */,
-				003E3D09FC43984B27EA7050220A973F /* Frameworks */,
-				9C4E4E70868F609B8D75266A9EB7B917 /* Resources */,
+				690736F546B5AB05E37699D3F2B63439 /* Headers */,
+				7D7E95B12C46D3293A517AF537D17321 /* Sources */,
+				F7F142994F171ED0E477379E3B5637E1 /* Frameworks */,
+				B02EDBA1D37EDB62DF437E2ABC20E387 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -364,7 +368,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				10B6ECBA7DC2C457D40BF287823BB26B /* DatePickerView */,
+				21D61EF3420DB4EE77B195984CD765FF /* DatePickerView */,
 				3DE2426BE9772BF1D027FD62F7B4CECF /* Pods-DatePickerView_Example */,
 				C3DD4E7F9018919F7B434649A994B985 /* Pods-DatePickerView_Tests */,
 			);
@@ -379,14 +383,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C4E4E70868F609B8D75266A9EB7B917 /* Resources */ = {
+		A42A88477D50B5FAC7EDDB53293005A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A42A88477D50B5FAC7EDDB53293005A8 /* Resources */ = {
+		B02EDBA1D37EDB62DF437E2ABC20E387 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,16 +416,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34DA8C50FBAC812E9460AE7E8898D312 /* Sources */ = {
+		7D7E95B12C46D3293A517AF537D17321 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360D00B87DAFB07A14AC21539CD6576F /* DataPickerContentView.m in Sources */,
-				B6404F14250C828A611D22A69194B07A /* DatePickerConfiguration.m in Sources */,
-				D69A93A50C12E234A1ED5989C348AA0C /* DatePickerDataManager.m in Sources */,
-				14540BDF546467AFD5E5C9403C7655AF /* DatePickerView-dummy.m in Sources */,
-				788D3E4A7F375AA2236E2504D330B0C2 /* DatePickerView.m in Sources */,
-				2F8BAFFD5D60CFB9A79E84E7D3F118B7 /* PickerExtension.m in Sources */,
+				53E04DA705840CE5BB16D3EFC3E2FA47 /* DataPickerContentView.m in Sources */,
+				23C68ED2E475614287DC53315E016059 /* DatePickerConfiguration.m in Sources */,
+				4D01900B93089A4B47673DAC83D8B23E /* DatePickerDataManager.m in Sources */,
+				DAFFD43184ABCD96D8F500A50090FCF5 /* DatePickerView-dummy.m in Sources */,
+				976E048BE0E3AD9D1A857C1A7949E689 /* DatePickerView.m in Sources */,
+				90070352B3DF43F230C5FA32223F6EC9 /* PickerExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +435,7 @@
 		3FD9539A776ABD631CD1AA418E663302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DatePickerView;
-			target = 10B6ECBA7DC2C457D40BF287823BB26B /* DatePickerView */;
+			target = 21D61EF3420DB4EE77B195984CD765FF /* DatePickerView */;
 			targetProxy = AF9836E1A5610C3DC2C72F0793B3DB87 /* PBXContainerItemProxy */;
 		};
 		7D6E7FF684A53B768377A389D3B23467 /* PBXTargetDependency */ = {
@@ -443,38 +447,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		18EEF01919880C911804FD108E46C731 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 280904F355E18A900DF077FC874DFCE2 /* DatePickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DatePickerView/DatePickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DatePickerView/DatePickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DatePickerView/DatePickerView.modulemap";
-				PRODUCT_MODULE_NAME = DatePickerView;
-				PRODUCT_NAME = DatePickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		396245D845A00227AF3500ED05C1559C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 451979F418B40E76B73C84D63FAB2972 /* Pods-DatePickerView_Tests.debug.xcconfig */;
@@ -568,6 +540,38 @@
 			};
 			name = Release;
 		};
+		5A93ABF6A80ACC20570880938C660808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280904F355E18A900DF077FC874DFCE2 /* DatePickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerView/DatePickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerView/DatePickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerView/DatePickerView.modulemap";
+				PRODUCT_MODULE_NAME = DatePickerView;
+				PRODUCT_NAME = DatePickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -629,37 +633,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		952462A02107AB06D60C600EA298F424 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 280904F355E18A900DF077FC874DFCE2 /* DatePickerView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DatePickerView/DatePickerView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DatePickerView/DatePickerView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DatePickerView/DatePickerView.modulemap";
-				PRODUCT_MODULE_NAME = DatePickerView;
-				PRODUCT_NAME = DatePickerView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -764,9 +737,49 @@
 			};
 			name = Debug;
 		};
+		FB531D205DBB20C6F6E6A5557AECF0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 280904F355E18A900DF077FC874DFCE2 /* DatePickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerView/DatePickerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerView/DatePickerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerView/DatePickerView.modulemap";
+				PRODUCT_MODULE_NAME = DatePickerView;
+				PRODUCT_NAME = DatePickerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		31076877D795A2AD6595B0CCF5BD1FDD /* Build configuration list for PBXNativeTarget "DatePickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB531D205DBB20C6F6E6A5557AECF0DE /* Debug */,
+				5A93ABF6A80ACC20570880938C660808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -781,15 +794,6 @@
 			buildConfigurations = (
 				F3720BB306C7728943302473816037A9 /* Debug */,
 				9CC4F6E7E2F41CA3890D91AE6F0093A6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6CA63D87323E5269CCEF5CD40C0B8316 /* Build configuration list for PBXNativeTarget "DatePickerView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				952462A02107AB06D60C600EA298F424 /* Debug */,
-				18EEF01919880C911804FD108E46C731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
