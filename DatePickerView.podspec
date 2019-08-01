@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DatePickerView'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = '一款简单配置的时间选择器'
 
 # This description is used to generate tags and improve search results.
