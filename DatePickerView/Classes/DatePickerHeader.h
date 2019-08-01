@@ -8,6 +8,7 @@
 
 typedef NS_ENUM(NSUInteger, DatePickerStyle) {
     DatePickerStyle_YearMonthDayHourMinute,  //年月日时分
+    DatePickerStyle_YearMonthDayHour, //年月日时
     DatePickerStyle_YearMonthDay,   //年月日
     DatePickerStyle_YearMonth,  //年月
     DatePickerStyle_HourMinute, //时分
@@ -33,6 +34,10 @@ typedef NS_ENUM(NSUInteger, DatePickerContentPosition) {
     DatePickerContentPosition_Top,
     DatePickerContentPosition_Bottom
 };
+
+
+
+
 
 
 

@@ -383,6 +383,7 @@
     // 如果修改了年, 或者  月, 要 动态修改    天数
     switch (self.pickerStyle) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
+        case DatePickerStyle_YearMonthDayHour: //年月日时
         case DatePickerStyle_YearMonthDay:  //年月日
         case DatePickerStyle_YearMonth: //年月
         case DatePickerStyle_Year: // 年

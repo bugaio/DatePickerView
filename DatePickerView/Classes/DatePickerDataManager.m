@@ -126,6 +126,8 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
     switch (style) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
             return 5;
+        case DatePickerStyle_YearMonthDayHour: //年月日时
+            return  4;
         case DatePickerStyle_YearMonthDay:  //年月日
             return 3;
         case DatePickerStyle_YearMonth: //年月
@@ -155,6 +157,8 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
     switch (style) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
             return [self YearMonthDayHourMinute_NumberOfComponent:component].count;
+        case DatePickerStyle_YearMonthDayHour:  //年月日时
+            return [self YearMonthDayHour_NumberOfComponent:component].count;
         case DatePickerStyle_YearMonthDay:  //年月日
             return [self YearMonthDay_NumberOfComponent:component].count;
         case DatePickerStyle_YearMonth: //年月
@@ -184,6 +188,9 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
     switch (style) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
             text = [[self YearMonthDayHourMinute_NumberOfComponent:component] objectAtIndex:row];
+            break;
+        case DatePickerStyle_YearMonthDayHour:  //年月日时
+            text = [[self YearMonthDayHour_NumberOfComponent:component] objectAtIndex:row];
             break;
         case DatePickerStyle_YearMonthDay:  //年月日
             text = [[self YearMonthDay_NumberOfComponent:component] objectAtIndex:row];
@@ -219,6 +226,9 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
     switch (style) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
             textArray = @[@"年", @"月", @"日", @"时", @"分"];
+            break;
+        case DatePickerStyle_YearMonthDayHour: //年月日时
+            textArray = @[@"年", @"月", @"日", @"时"];
             break;
         case DatePickerStyle_YearMonthDay:  //年月日
             textArray = @[@"年", @"月", @"日"];
@@ -256,6 +266,9 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
     switch (style) {
         case DatePickerStyle_YearMonthDayHourMinute:  //年月日时分
             indexArray = @[@(model.yearIndex), @(model.monthIndex), @(model.dayIndex),@(model.hourIndex),@(model.minuteIndex)];
+            break;
+        case DatePickerStyle_YearMonthDayHour: //年月日时
+            indexArray = @[@(model.yearIndex), @(model.monthIndex), @(model.dayIndex),@(model.hourIndex)];
             break;
         case DatePickerStyle_YearMonthDay:  //年月日
             indexArray = @[@(model.yearIndex),@(model.monthIndex), @(model.dayIndex)];
@@ -344,6 +357,35 @@ static const NSCalendarUnit componentFlags = (NSCalendarUnitYear| NSCalendarUnit
             
     }
 }
+
+
+#pragma mark-| 年月日时  类型时, 返回每列
+/**
+ 年月日时  类型时, 返回每列
+ 
+ @param component 列
+ @return \
+ */
+- (NSArray *)YearMonthDayHour_NumberOfComponent:(NSInteger)component {
+    switch (component) {
+        case 0: // 年
+            return self._yearArray;
+        case 1: // 月
+            return self._monthArray;
+        case 2: // 日
+        {
+            NSDate *date = [self createYearMonthDate];
+            self._currentDayArray = [self dayArrayWithDate:date];
+            return self._currentDayArray;
+        }
+        case 3: // 时
+            return self._hourArray;
+        default:
+            return @[];
+            
+    }
+}
+
 
 
 #pragma mark-| 年月日  类型时, 返回每列
